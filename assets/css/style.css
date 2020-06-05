@@ -1,0 +1,104 @@
+body{
+	font-family: Courier; 
+	letter-spacing: 0.001em;
+	font-size: 1.4em
+}
+
+.logo{
+	float: left;
+	width: 100%;
+	height: 20%;
+	border-bottom: 1px solid black;
+}
+.logo_img{
+	margin-left: 1.1em;
+	margin-top: 1.1em;
+	max-width: 20%;
+	max-height: 20%;
+}
+.search{
+	float: left;
+	display: flex;
+	justify-content: center;
+	padding-top: 1.5em;
+	width: 100%;
+}
+.search_img{
+	float: left;
+	width: 5%;
+	height: 5%;
+	padding-right: 0.2em;
+}
+.search_bar{
+	float: left;
+	padding-right: 60%;
+	padding-bottom: 1em;
+	font-size: 1.2em;
+}
+
+.post{
+	float: left;
+	width: 90%;
+	height: 20em;
+	padding-left: 2em;
+	padding-top: 5em;
+}
+.person{
+	float: left;
+	display: flex;
+	align-items: center;
+}
+.person_name{
+	float: left;
+	padding-left: 1.2em;
+	font-size: 1.55em;
+}
+.person_img{
+	float: left;
+	width: 5em;
+	height: 5em;
+	border-radius: 50%;
+}
+.post_box{
+	float: left;
+	margin-top: 1em;
+	width: 100%;
+	height: 40%;
+	border: 1px solid black;
+}
+.post_text{
+	padding-left: 1em;
+	padding-top: 1em;
+}
+.post_items{
+	float: left;
+	width: 100%
+}
+.answer_img{
+	float: left;
+	padding-right: 1em;
+	width: 5%;
+	height: 5%;
+}
+.send_img{
+	float: left;
+	width: 5%;
+	height: 5%;
+}
+.save_img{
+	float: right;
+	width: 5%;
+	height: 5%;
+}
+.post_answer_title{
+	float: left;
+	padding-bottom: 0.5em;
+}
+.post_answer_text{
+	float: left;
+}
+.post_answer{
+	float: left;
+	width: 100%;
+	margin-top: 1em;
+}
