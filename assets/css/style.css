@@ -39,11 +39,30 @@ body {
     text-align: center;
 }
 
-h1 {
+.titulo {
     color: white;
     font-weight: 500;
     font-size: 2rem;
     text-align: center;
+}
+
+.titulo-pre {
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.add-button {
+    padding: 10px;
+    height: auto;
+    width: 25%;
+    display: none;
+}
+
+.add-mobile {
+    width: 50%;
+    filter: invert();
 }
 
 /* pesquisa */
@@ -204,7 +223,7 @@ p {
 	text-align: center;
 }
 
-h3 {
+h4 {
 	text-transform: uppercase;
 	color: #fff;
 	font-family: sans-serif;
@@ -415,7 +434,6 @@ h3 {
     display: inline-block;
     width: 95%;
     margin: 20px auto;
-    flex-direction: column;
 }
 
 .comentario-img {
@@ -431,7 +449,7 @@ h3 {
 	padding-left: 3rem;
     font-size: 1rem;
     font-weight: 400;
-    text-align: center;
+    text-align: justify;
     line-height: 5rem;
 }
 
@@ -452,7 +470,7 @@ h3 {
 	padding-left: 9.5rem;
     font-size: 1rem;
     font-weight: 400;
-    text-align: center;
+    text-align: justify;
     line-height: 3rem;
 }
 
@@ -465,6 +483,10 @@ h3 {
 
 .prof-name {
     margin: auto 20px;
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .chat-box {
@@ -511,11 +533,13 @@ h3 {
 	background:#467DF9;
     align-self: flex-end;
     max-height: 500px;
+    width: 50%;
 }
 
 .from-them {
 	background:#3D97DB;
-	color:white;
+    color:white;
+    width: 50%;
 }
 
 .duvida {
@@ -530,3 +554,101 @@ h3 {
     color:white; 
     align-self: flex-end;
 }
+
+/* mobile css */
+
+@media only screen and (max-width: 800px) {
+    body {
+      width: 100vw;
+    }
+
+    .navbar {
+        height: 70px;
+        justify-content: space-between;
+    }
+    
+    .titulo {
+        display: none;
+    }
+
+    .search-img {
+        width: 8%;
+    }
+
+    .user-img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        line-height: 3rem;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .new-post {
+        display: none;
+    }
+
+    .add-button {
+        display: flex;
+        width: 20%;
+    }
+
+    .add-mobile {
+        width: 74%;
+        float: right;
+    }
+
+    .navbar-return {
+        height: 50px;
+    }
+
+    .comentario {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+
+    .comentario-img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .verificado {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .postagem-content{
+        width: 100%;
+    }
+
+    .postagem-img {
+        width: 100%;
+    }
+
+    .avancar {
+        width: 100vw;
+    }
+
+    .titulo-pre {
+        font-size: 1rem;
+    }
+
+    .last-message {
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+        padding-left: 6rem;
+    }
+
+    .prof-name {
+        font-size: 1rem;
+    }
+
+    .share-img {
+        width: 50%;
+    }
+  }
